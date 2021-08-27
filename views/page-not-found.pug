@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  article.portfolio-intro
+    h1= `404 - Page Not Found`
+    p Oops! It looks like the page you're looking for does not exist.
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Home
+
+    if err
+        hr
+        pre #{err.stack}

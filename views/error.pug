@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    article.portfolio-intro 
+        h1= `Server Error`
+        h2= `Error status code: ${err.status} - Server Error`
+        p= `${err.message}`
+
+        nav.nav
+            a(href='/')
+                span &larr;
+                |  Home
+
+        hr
+        pre #{err.stack}
