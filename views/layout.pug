@@ -5,9 +5,13 @@ html(lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel="preconnect", href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet")
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
+    script(src="https://kit.fontawesome.com/999f35e27e.js" crossorigin="anonymous")
+
 
   body
     #my-info.sidebar
@@ -18,10 +22,10 @@ html(lang="en" dir="ltr")
         .dev-intro-box
           h5 Jamie Murray
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p I am a self taught front end web developer and have several years commercial experience designing and building responsive Umbraco websites
+          p I am a self taught front end web developer and have several years commercial experience designing and building responsive Umbraco websites and currently studying a Full Stack JavaScript Techdegree at Treehouse.
 
-          a(href='/about') Learn More &rarr;
+          a(href='/about') Learn More
+            span &rarr;
 
     .wrapper
       .header
