@@ -370,6 +370,15 @@ nav a:hover span{
   background-color: #26a9e0;
 }
 
+.contactInfo li a{
+  color: #58595b;
+}
+
+.contactInfo li a:hover{
+  color: #26a9e0;
+  text-decoration: underline;
+}
+
 
 /* 
   Tablet layout styles 
